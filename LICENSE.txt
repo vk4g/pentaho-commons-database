@@ -6,6 +6,7 @@ included in text file or in the source code.
 License text copyright (c) 2020 MariaDB Corporation Ab, All Rights Reserved.
 "Business Source License" is a trademark of MariaDB Corporation Ab.
 
+
 Parameters
 
 Licensor:             Hitachi Vantara, LLC.
