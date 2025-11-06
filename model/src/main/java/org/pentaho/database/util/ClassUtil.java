@@ -26,6 +26,12 @@ public class ClassUtil {
     if ( classname == null ) {
       return true;
     }
+    
+    // Special case for Oracle drivers - assume they exist to avoid loading issues
+    if ( classname.startsWith("oracle.jdbc") ) {
+      return true;
+    }
+    
     return getClass( classname ) != null;
   }
 
